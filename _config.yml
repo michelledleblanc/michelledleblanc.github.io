@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: michelledleblanc
 minimal_mistakes_skin: "contrast"
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -45,7 +45,7 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+masthead_title: " "
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -93,10 +93,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
