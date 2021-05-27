@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Michelle LeBlanc"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/mdl.jpg"
   bio    : "data science • visualization"
   links:
 #     - label: "Website"
