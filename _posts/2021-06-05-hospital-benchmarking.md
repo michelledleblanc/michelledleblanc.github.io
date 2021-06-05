@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Hospital benchmarking project"
+---
+
 # Hospital benchmarking using unsupervised learning methods
 The Affordable Care Act of 2010 introduced several reforms to Medicare reimbursement incentivizing quality over quantity. These programs collectively adjust payments to hospitals based on “value metrics.” Commercial insurers followed Medicare’s lead and now have their own value based care programs. As a result, the industry has become increasingly data-driven in its approach to patient care.
 
@@ -23,8 +28,8 @@ from sklearn.neighbors import NearestNeighbors
 
 
 ```python
-continuous = pd.read_excel('continuousFeatures.xlsx').sort_values('HOSP_NIS')  #deidentified hospital number
-categorical = pd.read_excel('categorical.xlsx').sort_values('HOSP_NIS')
+continuous = pd.read_excel('reference\continuousFeatures.xlsx').sort_values('HOSP_NIS')  #deidentified hospital number
+categorical = pd.read_excel('reference\categorical.xlsx').sort_values('HOSP_NIS')
 #see feature list
 print(list(continuous.drop(columns=['HOSP_NIS']).columns)+list(categorical.drop(columns=['HOSP_NIS']).columns))
 ```
