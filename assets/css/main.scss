@@ -6,7 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-$brand-color:  gray;
+$link-color: #696969
 p, blockquote, ul, ol, dl, li, table, pre {
 margin: 15px 0; }
 
