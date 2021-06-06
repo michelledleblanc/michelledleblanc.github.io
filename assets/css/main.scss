@@ -3,10 +3,10 @@
 ---
 
 @charset "utf-8";
-
+$link-color: #696969;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-$link-color: #696969
+
 p, blockquote, ul, ol, dl, li, table, pre {
 margin: 15px 0; }
 
