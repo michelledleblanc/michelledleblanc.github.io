@@ -60,6 +60,8 @@ author:
   name   : "Michelle LeBlanc"
   avatar : "/assets/images/mdl.jpg"
   bio    : "data science • visualization"
+  location : "Chicago"
+  email  : "leblancmichelled@gmail.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
